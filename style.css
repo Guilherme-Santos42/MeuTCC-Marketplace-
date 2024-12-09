@@ -1,0 +1,55 @@
+
+
+.MainContainer {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 120vh;
+  
+ 
+}
+
+
+
+.Content {
+  display: block;
+  position: relative;
+  background-color: white;
+  z-index: 1;
+   position: fixed;
+}
+
+.ajeitar {
+	margin-left:200px;
+	margin-right:200px;
+	margin-top:100px;
+	 
+}
+
+
+	
+
+
+.navbar {
+  overflow: hidden;
+  background-color:#242424;
+  top: 0;
+ 
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #FFFFFF;
+  color: black;
+}
